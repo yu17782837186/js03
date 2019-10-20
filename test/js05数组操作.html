@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>js的数组操作</title>
+		<meta charset="UTF-8"/>
+		<script type="text/javascript">
+			var arr=[15,"zxc","小红","11"];
+//			var b=["每天努力学习"];
+//			var c="js";
+//			var d=arr.concat(b,c,c);//合并数组concat，将数组添加到后面并返回新的数字
+//			alert(d);
+//			alert(d.length);
+
+//			var b=arr.join("-");//指定什么样的分隔符隔开字符
+//			alert(b);
+//			alert(typeof b);
+			
+//			var ele=arr.pop();//移除最后一个元素并返回最后一个元素
+//			alert(ele);
+//			alert(arr);
+
+//			var ln=arr.push("小小");//数组的追加（最后）并返回新数组的长度,追加的可以是一个数组，看作一个角标
+//			alert(arr);
+//			var ln2=arr.push(["55",66]);
+//			alert(ln);
+//			alert(ln2);
+//			alert(arr);
+
+//			var ele=arr.shift();//移除数组的第一个元素并且返回元素的值
+//			alert(ele);
+//			alert(arr);
+
+//			var a=arr.unshift("今天学习了吗");//数组的追加，在开头追加该元素，并且返回的是新数组元素的长度
+//			alert(a);
+//			alert(arr);
+
+			var a=arr.splice(1,2,"小军");//删除指定位置的元素，最后一个是指定添加的元素从删除的位置开始添加
+			alert(a);
+			alert(arr);
+		</script>
+	</head>
+	<body>
+		<h3>js的数组操作</h3>
+	</body>
+</html>
